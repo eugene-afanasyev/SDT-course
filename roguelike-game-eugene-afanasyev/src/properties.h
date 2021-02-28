@@ -1,0 +1,28 @@
+#ifndef ROGUELIKE_GAME_SRC_PROPERTIES_H_
+#define ROGUELIKE_GAME_SRC_PROPERTIES_H_
+
+#define RESOURCES_PATH "./res"
+
+#define DEFAULT_MAP_PATH "./res/map1.dat"
+#define DEFAULT_CONFIG_PATH "./res/default_config.json"
+
+#define TERMINAL_SIZE_X 80
+#define TERMINAL_SIZE_Y 24
+
+#define PLAYER_COLOR_PAIR 1
+#define MAP_COLOR_PAIR 2
+#define SWEET_ROULETTE_COLOR_PAIR 3
+#define ENEMIES_COLOR_PAIR 4
+#define AID_KIT_COLOR_PAIR 5
+
+#define DOVAHKIIN_SYMBOL 'D'
+#define WALL_SYMBOL '#'
+#define LAND_SYMBOL '.'
+#define SWEET_ROULETTE_SYMBOL '@'
+#define DRAUGR_SYMBOL 'd'
+#define DRAGON_SYMBOL 'W'
+#define PROJECTILE_SYMBOL '^'
+#define NECROMANCER_SYMBOL '^'
+#define AID_KIT_SYMBOL '+'
+
+#endif  //ROGUELIKE_GAME_SRC_PROPERTIES_H_
